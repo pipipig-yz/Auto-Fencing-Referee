@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# Models (large binary files)
+models/
+*.pt
+*.pth
+
+# Output (generated, not source)
+output/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+
+# Claude internal
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
