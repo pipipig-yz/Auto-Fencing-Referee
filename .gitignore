@@ -1,0 +1,31 @@
+# Models (large binary weights — keep locally)
+models/
+*.pt
+*.pth
+*.onnx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Generated output
+code/output/
+
+# Claude Code internals
+.claude/
+code/.claude/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
